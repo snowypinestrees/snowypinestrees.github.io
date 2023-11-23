@@ -687,10 +687,6 @@ footer p {
 /* Styles for screens with a maximum width of 767px (typically for mobile devices) */
 @media (max-width: 767px) {
   /* Add your CSS rules for mobile screens here */
-
-  .footer-content {
-    padding-bottom: 100px;
-  }
   
   .card-content {
     font-size: 14px;
