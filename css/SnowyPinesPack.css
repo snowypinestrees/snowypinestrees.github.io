@@ -1,0 +1,79 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Snow Freeze Sparkle by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Snow Freeze Snow by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Snow Freeze Frozen Ice by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Snow Freeze Snowman by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Snow Freeze Snow Pile by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Snow Freeze Melt Ice by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Snow Freeze Hat by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Snow Freeze Regular by Putracetol
+ * URL: https://www.myfonts.com/collections/snow-freeze-font-putracetol
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+
+  
+@font-face {
+  font-family: "SnowFreezeSnow";
+  src: url('webFonts/SnowFreezeSnow/font.woff2') format('woff2'), url('webFonts/SnowFreezeSnow/font.woff') format('woff');
+}
+@font-face {
+  font-family: "SnowFreezeSnowPile";
+  src: url('webFonts/SnowFreezeSnowPile/font.woff2') format('woff2'), url('webFonts/SnowFreezeSnowPile/font.woff') format('woff');
+}
+@font-face {
+  font-family: "SnowFreezeSnowman";
+  src: url('webFonts/SnowFreezeSnowman/font.woff2') format('woff2'), url('webFonts/SnowFreezeSnowman/font.woff') format('woff');
+}
+@font-face {
+  font-family: "SnowFreezeMeltIce";
+  src: url('webFonts/SnowFreezeMeltIce/font.woff2') format('woff2'), url('webFonts/SnowFreezeMeltIce/font.woff') format('woff');
+}
+@font-face {
+  font-family: "SnowFreezeFrozenIce";
+  src: url('webFonts/SnowFreezeFrozenIce/font.woff2') format('woff2'), url('webFonts/SnowFreezeFrozenIce/font.woff') format('woff');
+}
+@font-face {
+  font-family: "SnowFreezeSparkle";
+  src: url('webFonts/SnowFreezeSparkle/font.woff2') format('woff2'), url('webFonts/SnowFreezeSparkle/font.woff') format('woff');
+}
+@font-face {
+  font-family: "SnowFreezeRegular";
+  src: url('webFonts/SnowFreezeRegular/font.woff2') format('woff2'), url('webFonts/SnowFreezeRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "SnowFreezeHat";
+  src: url('webFonts/SnowFreezeHat/font.woff2') format('woff2'), url('webFonts/SnowFreezeHat/font.woff') format('woff');
+}
+

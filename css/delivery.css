@@ -1,0 +1,37 @@
+
+p, h1, h2, h3, h4, h5 {
+  font-family: Lalezar, serif;
+  color: var(--red-color);
+}
+
+.delivery-main {
+  margin: 0;
+  position: relative;
+  /*background: linear-gradient(180deg, rgba(124, 169, 217, 0.54) 0%, rgba(198, 163, 204, 0.44) 57.29%, rgba(255, 255, 255, 0.30) 100%);*/
+  background: #FFEADF;
+
+  height: 100vh;
+
+  /*top: 110px;*/
+}
+
+.delivery-content {
+  position: relative;
+  width: 80%;
+  border-radius: 40px;
+  background-color: #F5F5F5;
+  margin: 0 auto;
+  top: 175px;
+
+}
+
+.delivery-content h1 {
+  font-size: 40px;
+  text-shadow:
+    -2px -2px 0 white, /* Top-left */
+    2px -2px 0 white, /* Top-right */
+    -2px  2px 0 white, /* Bottom-left */
+    2px  2px 0 white; /* Bottom-right */
+  text-align: center;
+  padding-top: 30px;
+}

@@ -1,0 +1,228 @@
+
+p, h1, h2, h3, h4, h5 {
+  font-family: Lalezar, serif;
+  color: var(--red-color);
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+.services-main {
+  margin: 0;
+  position: relative;
+  /*height: 1000px;*/
+  /*top: 110px;*/
+  padding-top: 150px;
+  /*background: #FFEADF;*/
+  background-image: url("../img/tree-row.jpg");
+  background-size: cover;
+  background-position: bottom;
+
+
+}
+
+.services-content {
+  position: relative;
+  width: 80%;
+  /*border-radius: 40px;*/
+  /*background-color: #F5F5F5;*/
+  margin: 0 auto 50px;
+}
+
+
+.services-main h1 {
+  margin: 20px auto 40px;
+  font-size: 50px;
+  text-shadow:
+    -3px -3px 0 white, /* Top-left */
+    3px -3px 0 white, /* Top-right */
+    -3px  3px 0 white, /* Bottom-left */
+    3px  3px 0 white; /* Bottom-right */
+  text-align: center;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  border: 3px solid red;
+  width: 300px;
+  border-radius: 40px;
+  height: 80px;
+  background: white;
+}
+
+.service-card h3, .service-card p {
+  color: white;
+  text-shadow: none;
+  text-align: center;
+}
+
+.services-main h3 {
+  font-size: 32px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.service-card p {
+  font-size: 20px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid white;
+  background: var(--red-color);
+  border-radius: 30px;
+  /*height: 350px;*/
+  width: 80%;
+  padding: 20px;
+  /*justify-content: center;*/
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto 30px;
+  box-sizing: border-box;
+}
+
+.service-card-with-picture {
+
+  display: flex;
+  flex-direction: row;
+  border: 10px solid white;
+  background: var(--red-color);
+  border-radius: 30px;
+  /*height: 350px;*/
+  width: 80%;
+  padding: 20px;
+
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto 30px;
+  box-sizing: border-box;
+}
+
+.service-card-with-picture h3, .service-card-with-picture p {
+  color: white;
+}
+
+.service-card-with-picture img {
+  width: 30%;
+  border-radius: 30px;
+  border: 4px solid white;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.with-picture-text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 1px;
+}
+
+.with-picture-text p {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+
+/* Styles for screens with a maximum width of 767px (typically for mobile devices) */
+@media (max-width: 767px) {
+
+  .services-main h1 {
+    margin-top: 0;
+  }
+
+  .service-card-with-picture img {
+    margin-top: 30px;
+    width: 75%;
+    margin-bottom: 15px;
+  }
+  .service-card-with-picture {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .service-card{
+    width: 95%;
+  }
+
+  .service-card-with-picture h3 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .service-card-with-picture p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .service-card p {
+
+  }
+  .service-card-with-picture {
+    padding: 5px;
+  }
+  .with-picture-text {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .services-main h1 {
+    margin-top: 0;
+  }
+
+  .services-content {
+    width: 90%;
+  }
+
+  .service-card-with-picture img {
+    margin-top: 30px;
+    width: 40%;
+    margin-bottom: 15px;
+  }
+  .service-card-with-picture {
+    width: 95%;
+  }
+
+  .service-card{
+    width: 95%;
+  }
+
+  .service-card-with-picture h3 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .service-card-with-picture p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .service-card p {
+
+  }
+  .service-card-with-picture {
+    padding: 5px;
+  }
+  .with-picture-text {
+    width: 50%;
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (typically for larger tablets and small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+  /* Add your CSS rules for larger tablets and small desktop screens here */
+}
