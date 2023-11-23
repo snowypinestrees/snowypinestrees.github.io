@@ -1,0 +1,4 @@
+body {
+  overflow-y: hidden; /* Disable vertical scrolling on the body */
+  margin: 0; /* Remove default margin */
+}
