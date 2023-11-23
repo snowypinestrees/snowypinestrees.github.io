@@ -688,6 +688,10 @@ footer p {
 @media (max-width: 767px) {
   /* Add your CSS rules for mobile screens here */
 
+  .footer-content {
+    padding-bottom: 100px;
+  }
+  
   .card-content {
     font-size: 14px;
   }
@@ -789,6 +793,7 @@ footer p {
   /*.navbar .logo-li {*/
   /*  display: none;*/
   /*}*/
+
 
   .about .about-description {
     width: 70%;
