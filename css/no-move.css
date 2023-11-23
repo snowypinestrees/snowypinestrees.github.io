@@ -2,3 +2,7 @@ html, body {
   overflow-y: hidden; /* Disable vertical scrolling on the body */
   margin: 0; /* Remove default margin */
 }
+
+.footer-content {
+    padding-bottom: 100px;
+}
