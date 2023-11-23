@@ -25,7 +25,7 @@ var snowMaxSize = 24;
 var snowRefresh = 30;
 
 // Additional Styles
-var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
+var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; pointer-events: none;";
 
 /*
 // End of Configuration
