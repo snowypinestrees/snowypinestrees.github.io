@@ -3,6 +3,10 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  position: static;
+}
+
 p, h1, h2, h3, h4, h5 {
   font-family: Lalezar, serif;
   color: var(--red-color);
