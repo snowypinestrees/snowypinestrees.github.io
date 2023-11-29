@@ -73,13 +73,13 @@ footer {
 .wreath {
   grid-area: wreath;
   border-radius: 20px;
-  background-image: url("../img/image-placeholder.png");
+  background-image: url("../img/small-trees.jpeg");
 }
 
 .reindeer {
   grid-area: reindeer;
   border-radius: 20px;
-  background-image: url("../img/image-placeholder.png");
+  background-image: url("../img/reindeer-min.jpeg");
 }
 
 .catalog {
