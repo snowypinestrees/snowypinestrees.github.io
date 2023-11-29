@@ -88,12 +88,12 @@ footer {
   background: #F5F5F5;
   margin: 0 auto 40px;
   width: 80%;
-  height: 650px;
+  height: 800px;
   display: grid;
   grid-template-areas:
   "snowman wreath"
   "snowman reindeer";
-  grid-template-rows: 200px 300px;
+  grid-template-rows: 400px 300px;
   gap: 20px;
   box-sizing: border-box;
 }
